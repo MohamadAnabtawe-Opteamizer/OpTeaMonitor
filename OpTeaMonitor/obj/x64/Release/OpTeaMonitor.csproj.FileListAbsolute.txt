@@ -1,0 +1,14 @@
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csprojAssemblyReference.cache
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.Form1.resources
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.Properties.Resources.resources
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.GenerateResource.cache
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.CoreCompileInputs.cache
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\OpTeaMonitor.exe.config
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\OpTeaMonitor.exe
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\OpTeaMonitor.pdb
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\CircularProgressBar.dll
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\WinFormAnimation.dll
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\CircularProgressBar.xml
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.CopyComplete
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.exe
+C:\Users\MKA95\Desktop\Projects\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.pdb
