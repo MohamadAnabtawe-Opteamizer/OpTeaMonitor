@@ -18,7 +18,6 @@ C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\OpTeaMonitor.pdb
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\CircularProgressBar.dll
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\WinFormAnimation.dll
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\bin\x64\Release\CircularProgressBar.xml
-C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csprojAssemblyReference.cache
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.Properties.Resources.resources
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.GenerateResource.cache
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.CoreCompileInputs.cache
@@ -26,3 +25,4 @@ C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csproj.Cop
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.exe
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.pdb
 C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.mainFrame.resources
+C:\Projects\C#\OpTeaMonitor\OpTeaMonitor\obj\x64\Release\OpTeaMonitor.csprojAssemblyReference.cache

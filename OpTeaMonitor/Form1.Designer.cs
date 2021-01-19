@@ -50,7 +50,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.cpuName = new System.Windows.Forms.Label();
-            this.gpuName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cpuSpeed = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -58,6 +57,15 @@
             this.label8 = new System.Windows.Forms.Label();
             this.cpuLogicalProcessors = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.gpuName = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.gpuProcessor = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.gpuDriverVersion = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.gpuDriverDate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GPU)).BeginInit();
@@ -69,6 +77,7 @@
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // circularProgressBarGPU
@@ -317,7 +326,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.gpuName);
+            this.tabPage3.Controls.Add(this.tableLayoutPanel2);
             this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -360,15 +369,6 @@
             this.cpuName.Size = new System.Drawing.Size(27, 15);
             this.cpuName.TabIndex = 1;
             this.cpuName.Text = "cpu";
-            // 
-            // gpuName
-            // 
-            this.gpuName.AutoSize = true;
-            this.gpuName.Location = new System.Drawing.Point(8, 6);
-            this.gpuName.Name = "gpuName";
-            this.gpuName.Size = new System.Drawing.Size(46, 18);
-            this.gpuName.TabIndex = 0;
-            this.gpuName.Text = "label1";
             // 
             // label1
             // 
@@ -437,6 +437,107 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "CPU:";
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.AutoSize = true;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.60815F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.39185F));
+            this.tableLayoutPanel2.Controls.Add(this.gpuName, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.gpuProcessor, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.label11, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.gpuDriverVersion, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label13, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.label14, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.gpuDriverDate, 1, 2);
+            this.tableLayoutPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 6);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 4;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(628, 60);
+            this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // gpuName
+            // 
+            this.gpuName.AutoSize = true;
+            this.gpuName.Location = new System.Drawing.Point(157, 0);
+            this.gpuName.Name = "gpuName";
+            this.gpuName.Size = new System.Drawing.Size(28, 15);
+            this.gpuName.TabIndex = 1;
+            this.gpuName.Text = "gpu";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(36, 15);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "GPU:";
+            // 
+            // gpuProcessor
+            // 
+            this.gpuProcessor.AutoSize = true;
+            this.gpuProcessor.Location = new System.Drawing.Point(157, 45);
+            this.gpuProcessor.Name = "gpuProcessor";
+            this.gpuProcessor.Size = new System.Drawing.Size(61, 15);
+            this.gpuProcessor.TabIndex = 5;
+            this.gpuProcessor.Text = "processor";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label11.Location = new System.Drawing.Point(3, 15);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 15);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Driver Version:";
+            // 
+            // gpuDriverVersion
+            // 
+            this.gpuDriverVersion.AutoSize = true;
+            this.gpuDriverVersion.Location = new System.Drawing.Point(157, 15);
+            this.gpuDriverVersion.Name = "gpuDriverVersion";
+            this.gpuDriverVersion.Size = new System.Drawing.Size(46, 15);
+            this.gpuDriverVersion.TabIndex = 1;
+            this.gpuDriverVersion.Text = "version";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label13.Location = new System.Drawing.Point(3, 45);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(65, 15);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "Processor:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label14.Location = new System.Drawing.Point(3, 30);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(71, 15);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Driver Date:";
+            // 
+            // gpuDriverDate
+            // 
+            this.gpuDriverDate.AutoSize = true;
+            this.gpuDriverDate.Location = new System.Drawing.Point(157, 30);
+            this.gpuDriverDate.Name = "gpuDriverDate";
+            this.gpuDriverDate.Size = new System.Drawing.Size(31, 15);
+            this.gpuDriverDate.TabIndex = 3;
+            this.gpuDriverDate.Text = "date";
+            // 
             // mainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -465,6 +566,8 @@
             this.tabPage3.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -491,7 +594,6 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label cpuName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label gpuName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label cpuSpeed;
         private System.Windows.Forms.Label label5;
@@ -499,6 +601,15 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label cpuLogicalProcessors;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label gpuName;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label gpuProcessor;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label gpuDriverVersion;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label gpuDriverDate;
     }
 }
 

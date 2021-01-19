@@ -39,6 +39,9 @@ namespace OpTeaMonitor
             foreach (ManagementObject obj in gpuObject.Get())
             {
                 gpuName.Text = obj["Name"].ToString();
+                gpuDriverVersion.Text = obj["DriverVersion"].ToString();
+                gpuDriverDate.Text = obj["DriverDate"].ToString().Substring(6, 2) + "/" + obj["DriverDate"].ToString().Substring(4, 2) + "/" + obj["DriverDate"].ToString().Substring(0, 4);
+                gpuProcessor.Text = obj["VideoProcessor"].ToString();
             }
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -56,7 +59,7 @@ namespace OpTeaMonitor
             circularProgressBarRAM.Value = (int)fram;
             circularProgressBarRAM.Text = string.Format("{0:0.00}%", fram);            
             
-            float fgpu = GPU.NextValue();// GPU.NextValue();
+            float fgpu = GPU.NextValue();
             circularProgressBarGPU.Value = (int)fgpu;
             circularProgressBarGPU.Text = string.Format("{0:0.00}%", fgpu);
         }
